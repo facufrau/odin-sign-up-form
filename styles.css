@@ -1,4 +1,7 @@
-* {
-    background-color: aquamarine;
-    font-family: 'Roboto', 'Courier New', Courier, monospace;
+.content {
+    display: flex;
+}
+
+.image-section {
+    background-image: url("images/background.jpg");
 }
