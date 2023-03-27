@@ -22,8 +22,49 @@
             </p>
         </div>
     
-        <div class="form-section">
-            <div>
+        <div class="form-section">       
+            <form action="index.html" method="post">
+                <div class="first-block">
+                    <p class="intro-text">
+                        This is not a real online service! You know you need something like
+                        this in your life to help you realize your deepest dreams.<br>
+                        Sign up now to get started.
+                    </p>
+                    <p class="intro-text">
+                        You know you want to.
+                    </p>
+                </div>
+
+                <div class="second-block">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                    
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" name="first_name">
+    
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" name="last_name">
+    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+    
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="text" pattern="[09]{1,4} - [09]{7}" id="phone-number" name="phone-number">
+    
+                        <label for="pwd-1">Password:</label>
+                        <input type="password" id="pwd-1" name="pwd-1">
+    
+                        <label for="pwd-2">Confirm Password:</label>
+                        <input type="password" id="pwd-2" name="pwd-2">
+                    </fieldset>
+                </div>
+
+                <div class="third-block">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="index.html">Log In</a></p>
+                </div>  
+
+            </form>
         </div>
     </div>
 </body>

@@ -69,3 +69,7 @@ a.credit {
 }
 
 /* FORM SECTION STYLES */
+
+.form-section {
+    width: 67%;
+}
