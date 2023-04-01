@@ -73,3 +73,33 @@ a.credit {
 .form-section {
     width: 67%;
 }
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #f9fafb;
+    gap: 7.5rem;
+}
+
+.first-block{
+    color: #21222B;
+    font-family:Helvetica, monospace, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.second-block {
+    background-color: #ffffff;
+}
+
+.third-block {
+    margin-right: auto;
+    color: #21222B;
+}
+
+#create-account {
+    background-color: #355593;
+}
