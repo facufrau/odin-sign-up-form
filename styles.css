@@ -16,6 +16,9 @@ body {
     padding: 0 17%
 }
 
+.italics {
+    font-style: italic;
+}
 
 /* IMAGE AND LOGO SECTION STYLES */
 h1 {
@@ -82,24 +85,51 @@ form {
     justify-content: center;
     background-color: #f9fafb;
     gap: 7.5rem;
+    font-family:Helvetica, monospace, Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 3em;
 }
 
 .first-block{
     color: #21222B;
-    font-family:Helvetica, monospace, Arial, sans-serif;
     font-weight: bold;
     font-size: 1.25em;
 }
 
 .second-block {
     background-color: #ffffff;
+    box-shadow: 0px 5px 5px -2px rgba(148,146,146,0.8);
 }
 
 .third-block {
     margin-right: auto;
     color: #21222B;
+    font-size: 1em;
 }
 
 #create-account {
-    background-color: #355593;
+    background-color: #776866;
+}
+
+label {
+    margin-bottom: 0.4rem;
+    display: block;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    width: 15rem;
+    border-radius: 8px;
+}
+
+input:hover{
+    border: 1.5px solid #7a7a7a;
+    box-shadow: 5px 5px 5px 0px rgba(148,146,146,0.8);
+}
+
+label,
+input,
+button {
+  font-size: 1.2rem;
+  line-height: 1.2
 }
