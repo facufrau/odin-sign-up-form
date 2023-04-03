@@ -6,4 +6,4 @@ Sign up form project for intermediate HTML and CSS practice.
 - https://coolors.co/image-picker
 - https://unsplash.com/
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
+- https://favicon.io/favicon-generator/
