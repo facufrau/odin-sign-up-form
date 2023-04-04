@@ -1,6 +1,7 @@
 # Sign up Form
 Sign up form project for intermediate HTML and CSS practice.
 
+[See the live demo here](https://facufrau.github.io/odin-sign-up-form/)
 ## Pages used for information and assets
 
 - https://coolors.co/image-picker
